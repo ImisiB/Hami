@@ -1,0 +1,124 @@
+section{
+  background-color: #1c66de;
+}
+.heads{
+  display: flex;
+  border-bottom: rgba(225, 225, 225, 0.2) solid 1px;
+}
+.calls{
+  padding: 15px 15px 15px 75px;
+  border-right: rgba(225, 225, 225, 0.2) solid 1px;
+}
+.call a{
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+}
+.call a:hover, .call a:active, .call a:focus{
+  color: #303030;
+  transition-duration: 0.5s;
+}
+.call i{
+  margin-right: 5px;
+}
+.call img{
+  height: 15px;
+  width: 15px;
+  margin-right: 2px;
+}
+.mail{
+  display: flex;
+  justify-content: space-between;
+  width: 800px;
+  padding: 15px 15px 15px 20px;
+  border-right: rgba(225, 225, 225, 0.2) solid 1px;
+}
+.caller{
+  padding: 15px 15px 15px 15px;
+}
+
+.heading{
+  padding: 30px 100px;
+  display: flex;
+  align-items: center;
+}
+.hami a{
+  cursor: pointer;
+  color: white;
+  font-size: 40px;
+  margin-right: 300px;
+}
+.flex{
+  display: flex;
+}
+.homes a{
+  cursor: pointer;
+  color: white;
+  margin-right: 30px;
+  padding: 10px;
+  border-bottom: white solid 2px;
+}
+.home a{
+  cursor: pointer;
+  color: white;
+  margin-right: 30px;
+}
+.home a:hover, .home a:active, .home a:focus, .homes a:hover, .homes a:active, .homes a:focus{
+  color: #303030;
+  transition-duration: 0.5s;
+}
+.posts{
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 10px 0px;
+  display: none;
+}
+.post{
+  color: #303030;
+  font-size: 14px;
+  padding: 10px 60px 10px 20px;
+  cursor: pointer;
+  font-weight: 700;
+  border-bottom: rgba(225, 225, 225, 0.2) solid 1px;
+}
+.posters{
+  position: relative;
+}
+.poster{
+  color: #303030;
+  font-size: 14px;
+  padding: 10px 60px 10px 20px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.post:hover{
+  color: #1c66de;
+  transition-duration: 0.5s;
+}
+.poster:hover{
+  color: #1c66de;
+  transition-duration: 0.5s;
+}
+.page:hover .posts{
+  display: block;
+}
+.drops{
+  position: absolute;
+  background-color: white;
+  border-radius: 8px;
+  right: -160px;
+  top: 0;
+  display: none;
+}
+.drop{
+  color: #303030;
+  font-size: 14px;
+  padding: 10px 60px 10px 20px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.poster:hover .drops{
+  display: block;
+}
