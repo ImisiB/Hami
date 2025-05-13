@@ -52,6 +52,7 @@ section{
 .flex{
   display: flex;
 }
+
 .homes a{
   cursor: pointer;
   color: white;
@@ -64,6 +65,11 @@ section{
   color: white;
   margin-right: 30px;
 }
+.page{
+  position: relative;
+  overflow: hidden;
+  height: fit-content;
+}
 .home a:hover, .home a:active, .home a:focus, .homes a:hover, .homes a:active, .homes a:focus{
   color: #303030;
   transition-duration: 0.5s;
@@ -73,7 +79,9 @@ section{
   background-color: white;
   border-radius: 8px;
   padding: 10px 0px;
-  display: none;
+  position: absolute;
+  /* bottom: 0; */
+  /* display: none; */
 }
 .post{
   color: #303030;
@@ -102,7 +110,14 @@ section{
   transition-duration: 0.5s;
 }
 .page:hover .posts{
-  display: block;
+  /* display: block; */
+  top: 0;
+  transition-duration: 0.2s;
+  transform: 100px 0px;
+  height: fit-content;
+}
+.page:hover .page{
+  overflow: auto;
 }
 .drops{
   position: absolute;
