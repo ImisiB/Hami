@@ -67,27 +67,32 @@ section{
 }
 .page{
   position: relative;
-  overflow: hidden;
-  height: fit-content;
+  /* overflow: hidden; */
 }
 .home a:hover, .home a:active, .home a:focus, .homes a:hover, .homes a:active, .homes a:focus{
   color: #303030;
   transition-duration: 0.5s;
 }
 .posts{
-  margin-top: 10px;
+  margin-top: 1px;
   background-color: white;
   border-radius: 8px;
   padding: 10px 0px;
   position: absolute;
   /* bottom: 0; */
-  /* display: none; */
+  display: none;
+}
+.page:hover .posts{
+  display: block;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out; 
 }
 .post{
   color: #303030;
   font-size: 14px;
   padding: 10px 60px 10px 20px;
   cursor: pointer;
+  width: 120px;
   font-weight: 700;
   border-bottom: rgba(225, 225, 225, 0.2) solid 1px;
 }
@@ -109,16 +114,6 @@ section{
   color: #1c66de;
   transition-duration: 0.5s;
 }
-.page:hover .posts{
-  /* display: block; */
-  top: 0;
-  transition-duration: 0.2s;
-  transform: 100px 0px;
-  height: fit-content;
-}
-.page:hover .page{
-  overflow: auto;
-}
 .drops{
   position: absolute;
   background-color: white;
@@ -126,6 +121,7 @@ section{
   right: -160px;
   top: 0;
   display: none;
+  box-shadow: #303030 2px 0px 10px;
 }
 .drop{
   color: #303030;
@@ -134,6 +130,6 @@ section{
   cursor: pointer;
   font-weight: 700;
 }
-.poster:hover .drops{
+.posters:hover .drops{
   display: block;
 }
