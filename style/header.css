@@ -121,7 +121,7 @@ section{
   right: -160px;
   top: 0;
   display: none;
-  box-shadow: #303030 2px 0px 10px;
+  box-shadow: 2px 5px 5px;
 }
 .drop{
   color: #303030;
