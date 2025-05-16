@@ -121,7 +121,7 @@ section{
   right: -160px;
   top: 0;
   display: none;
-  box-shadow: 2px 5px 5px;
+  box-shadow: -8px -5px 55px -35px;
 }
 .drop{
   color: #303030;
@@ -129,6 +129,10 @@ section{
   padding: 10px 60px 10px 20px;
   cursor: pointer;
   font-weight: 700;
+}
+.drop:hover{
+  color: #1c66de;
+  transition-duration: 0.3s;
 }
 .posters:hover .drops{
   display: block;
