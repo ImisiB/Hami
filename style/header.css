@@ -51,8 +51,8 @@ section{
 }
 .flex{
   display: flex;
+  align-items: center;
 }
-
 .homes a{
   cursor: pointer;
   color: white;
@@ -136,4 +136,22 @@ section{
 }
 .posters:hover .drops{
   display: block;
+}
+.chat{
+  cursor: pointer;
+  padding: 15px 30px;
+  font-size: 13px;
+  font-weight: 700;
+  color: white;
+  background-color: #1c66de;
+  border: white 1px solid;
+  border-radius: 25px;
+}
+.chat:hover{
+  color: #1abc9c;
+  transition-duration: 500ms;
+  background-color: white;
+}
+.chat i{
+  margin-right: 5px;
 }
