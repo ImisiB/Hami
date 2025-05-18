@@ -1,0 +1,74 @@
+.main{
+  padding: 150px 100px;
+}
+.beast{
+  display: flex;
+}
+.bests{
+  width: 52%;
+}
+.best{
+  color: white;
+  font-size: 85px;
+  line-height: 1.2;
+  width: 500px;
+  margin-bottom: 20px;
+}
+.start{
+  color: white;
+  font-size: 30px;
+  width: fit-content;
+  margin-bottom: 20px;
+}
+.start span{
+  text-decoration: line-through;
+}
+.ever{
+  color: white;
+  font-size: 20px;
+  margin-bottom: 70px;
+}
+.get a{
+  color: #1c66de;
+  background-color: white;
+  box-shadow: 0 2px 40px 8px rgba(15, 15, 15, 0.15);
+  width: fit-content;
+  padding: 15px 30px;
+  font-weight: 700;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.get a:hover, .get a:focus, .get a:active{
+  color: white;
+  background-color: #1c66de;
+  transition-duration: 0.4s;
+}
+.ist{
+  max-width: 48%;
+}
+.ist img{
+  width: 500px;
+}
+
+.cloud{
+  background-color:transparent;
+  margin-top: -85px;
+}
+.cloud img{
+  width: 100%;
+  height: 100%;
+}
+.domains{
+  display: flex;
+  padding: 100px;
+}
+.perfect{
+  font-size: 40px;
+  max-width: 350px;
+  line-height: 1.3;
+  color: #303030;
+  margin-bottom: 20px;
+}
+.only{
+  color: #707070;
+}

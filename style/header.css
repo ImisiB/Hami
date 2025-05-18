@@ -106,7 +106,7 @@ section{
   cursor: pointer;
   font-weight: 700;
 }
-.post:hover{
+.post a:hover{
   color: #1c66de;
   transition-duration: 0.5s;
 }
@@ -147,7 +147,7 @@ section{
   border: white 1px solid;
   border-radius: 25px;
 }
-.chat:hover{
+.chat:hover, .chat:focus, .chat:active{
   color: #1abc9c;
   transition-duration: 500ms;
   background-color: white;
