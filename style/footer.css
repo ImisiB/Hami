@@ -1,0 +1,13 @@
+.dot a{
+  padding: 20px;
+  border-radius: 50%;
+  background-color: #1c66de;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  cursor: pointer;
+}
+.dot a:hover, .dot a:focus, .dot a:active{
+  transition-duration: 0.3s;
+  background-color: black;
+}
