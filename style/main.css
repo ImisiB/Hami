@@ -168,6 +168,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
+.feature{
+  margin-bottom: 20px;
+}
 .afford{
   color: #707070;
   width: 100%;
@@ -194,4 +197,8 @@
   color: #707070;
   line-height: 1.8;
   margin-top: -15px;
+}
+.feature:hover .auto{
+  color: #1c66de;
+  transition-duration: 0.5s;
 }
