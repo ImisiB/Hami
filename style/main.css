@@ -202,3 +202,74 @@
   color: #1c66de;
   transition-duration: 0.5s;
 }
+
+.hosting{
+  padding: 0px 100px;
+}
+.standards{
+  padding: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.standard{
+  text-align: center;  
+  border: rgba(225, 225, 225, 0.5) solid 1px;
+  box-shadow: 0 8px 8px -1px rgba(0, 0, 0, 0.15);
+}
+.standard:hover{
+  transition-duration: 0.4s;
+  background-color: #e8f1f8;
+}
+.host{
+  color: #303030;
+  font-weight: 500;
+  font-size: 24px;
+}
+.save{
+  margin-top: -20px;
+  color: #707070;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.pos{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dollar{
+  position: absolute;
+  left: 0;
+  color: #1c66de;
+  font-size: 16px;
+}
+.one{
+  color: #1c66de;
+  position: relative;
+  font-size: 60px;
+  line-height: 1;
+  display: inline-block;
+  font-weight: 400;
+  margin: 0;
+}
+.month{
+  color: #b7b7b7;
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 27px;
+}
+.again{
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #1c66de;
+  padding: 15px 90px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.again:hover, .again:focus, .again:active{
+  color: #1c66de;
+  background-color: white;
+  transition-duration: 0.5s;
+}
