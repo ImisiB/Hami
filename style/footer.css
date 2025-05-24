@@ -12,7 +12,6 @@
   background-color: black;
 }
 
-
 .website-numbers{
   width: 100px;
   padding: 0px 150px;
@@ -31,4 +30,173 @@
 }
 .website-number span{
   color: #1c66de;
+}
+
+.final-section{
+  padding: 100px;
+}
+.production{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.products{
+  margin-right: 32px;
+}
+.product{
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.shared{
+  color: #777777;
+  margin-bottom: 14px;
+  font-size: 16px;
+  display: block;
+  cursor: pointer;
+}
+.shared:hover, .shared:active, .shared:focus{
+  color: #1c66de;
+  transition-duration: 0.4s;
+}
+.producer{
+  color: #303030;
+  font-weight: 400;
+  margin-bottom: 50px;
+  width: 300px;
+}
+.subscribe{
+  color: #777777;
+  margin-bottom: 14px;
+  font-size: 16px;
+  width: 340px;
+  line-height: 1.6;
+}
+.input{
+  position: relative;
+  margin-bottom: 20px;
+}
+.email-form{
+  background-color: #e8f1f8;
+  padding: 16px 35px;
+  width: 200px;
+  border: none;
+  border-radius: 25px;
+  color: #999999;
+  font-size: 18px;
+}
+.email-form::placeholder{
+  font-size: 18px;
+  color: #999999;
+}
+.send{
+  background-color: #1c66de;
+  border: none;
+  border-radius: 50%;
+  padding: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: 60px;
+  color: white;
+  outline: none;
+  font-size: 18px;
+}
+.send:hover{
+  background-color: #303030;
+}
+.send:active .send:focus{
+  background-color: #303030;
+  border: black solid;
+}
+.medias{
+  display: flex;
+}
+.facebook{
+  color: white;
+  background-color: #4b62b3;
+  margin-right: 15px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.facebook:hover, .facebook:active, .facebook:focus{
+  background-color: #1c66de;
+  transition-duration: 1s;
+}
+.twitter{
+  color: white;
+  background-color: #03baeb;;
+  margin-right: 15px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.twitter:hover, .twitter:active, .twitter:focus{
+  background-color: #1c66de;
+  transition-duration: 1s;
+}
+.google{
+  color: white;
+  background-color: #cb242e;
+  margin-right: 15px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.instagram{
+  color: white;
+  background-color: #1c66de;
+  margin-right: 15px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.youtube{
+  color: white;
+  background-color: #cb242e;
+  margin-right: 15px;
+  padding: 12px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.youtube:hover, .youtube:active, .youtube:focus{
+  background-color: #1c66de;
+  transition-duration: 1s;
+}
+
+.ending{
+  background-color: #e8f1f8;
+  padding: 30px 60px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.end{
+  color: #999999;
+  width: 500px;
+}
+.end i{
+  color: red;
+}
+.end a{
+  color: #1c66de;
+  cursor: pointer;
+}
+.end a:hover{
+  color: red;
+  transition-duration: 1.5s;
+}
+.done{
+  height: 30px;
+  width: 30px;
+  margin-right: 5px;
+}
+.final{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.final h4{
+  margin-right: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #999999;
 }
