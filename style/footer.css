@@ -11,3 +11,24 @@
   transition-duration: 0.3s;
   background-color: black;
 }
+
+
+.website-numbers{
+  width: 100px;
+  padding: 0px 150px;
+  margin-bottom: 20px;
+}
+.website-number{
+  width: 1000px;
+  padding: 30px 0px;
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 1px solid #ebebeb;
+}
+.website-number h2{
+  color: #303030;
+  font-weight: 400;
+}
+.website-number span{
+  color: #1c66de;
+}
