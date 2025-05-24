@@ -204,7 +204,8 @@
 }
 
 .hosting{
-  padding: 0px 100px;
+  padding: 0px 70px;
+  margin-bottom: 50px;
 }
 .standards{
   padding: 50px;
@@ -212,9 +213,12 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 .standard{
+  max-width: 400px;
+  padding: 20px;
   text-align: center;  
   border: rgba(225, 225, 225, 0.5) solid 1px;
   box-shadow: 0 8px 8px -1px rgba(0, 0, 0, 0.15);
+  margin-right: 30px;
 }
 .standard:hover{
   transition-duration: 0.4s;
@@ -267,9 +271,91 @@
   border: none;
   border-radius: 25px;
   cursor: pointer;
+  margin-bottom: 20px;
 }
 .again:hover, .again:focus, .again:active{
   color: #1c66de;
   background-color: white;
   transition-duration: 0.5s;
+}
+.unlimited{
+  display: grid;
+  place-content: center;
+}
+.unlimit{
+  display: flex;
+  align-items: center;
+}
+.unlimit i{
+  color: #1c66de;
+  margin-right: 10px;
+  font-size: 20px;
+}
+.unlimit p{
+  margin-bottom: 12px;
+  color: #707070;
+}
+.d{
+  margin: 20px 0px;
+}
+.see{
+  color: #b7b7b7;
+  text-decoration: underline;
+}
+.see:hover, .see:focus, .see:active{
+  color: #1c66de;
+  transition-duration: 0.4s;
+}
+.standarder{
+  max-width: 400px;
+  padding: 20px;
+  text-align: center;  
+  border: rgba(225, 225, 225, 0.5) solid 1px;
+  box-shadow: 0 8px 8px -1px rgba(0, 0, 0, 0.15);
+  margin-right: 30px;
+  background-color: #e8f1f8;
+  position: relative;
+  overflow: hidden;
+}
+.best-plan{
+  position: absolute;
+  top: 32px;
+  right: -100px;
+  background-color: #16c69a;
+  color: white;
+  font-size: 14px;
+  width: 300px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transform: rotate(42deg);
+}
+.best-plan i{
+  font-size: 14px;
+}
+
+.plain{
+  background-color: #e8f1f8;
+}
+.houses{
+  display: flex;
+}
+.cloud-house{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  padding: 100px 0;
+  background-color: red;
+}
+.normal-house{
+  height: 100%;
+  width: 50%;
+  text-align: left;
+}
+.discount{
+  background-color: blue;
+  font-size: 50px;
+  font-weight: 400;
+  color: #303030;
+  line-height: 1.4;
 }
