@@ -1,0 +1,70 @@
+@keyframes right{
+  from{
+    transform: translateX(1285px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+@keyframes right2{
+  from{
+    transform: translateX(885px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+@keyframes right3{
+  from{
+    transform: translateX(1000px);
+  }
+  to{
+    transform: translateX(-200px);
+  }
+}
+@keyframes right4{
+  from{
+    transform: translateX(905px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+@keyframes right5{
+  from{
+    transform: translateX(920px);
+  }
+  to{
+    transform: translateX(0);
+  }
+}
+
+.right{
+  z-index: 999;
+  animation: right 45s linear infinite both;
+}
+.right2{
+  z-index: 999;
+  position: absolute;
+  animation: right2 35s linear infinite both;
+  position: absolute;
+  top: 250px;
+}
+.right3{
+  z-index: 999;
+  position: absolute;
+  animation: right3 30s linear infinite both;
+  top: 450px;
+}
+.right4{
+  z-index: 999;
+  position: absolute;
+  animation: right4 55s linear infinite both;
+  top: 320px;
+}
+.right5{
+  z-index: 999;
+  position: absolute;
+  animation: right5 25s linear infinite both;
+  top: 370px;
+}
