@@ -1,8 +1,10 @@
 .main{
-  padding: 150px 100px;
+  padding: 150px 0px;
 }
 .beast{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .bests{
   width: 52%;
@@ -11,13 +13,13 @@
   color: white;
   font-size: 85px;
   line-height: 1.2;
-  width: 500px;
+  max-width: 500px;
   margin-bottom: 20px;
 }
 .start{
   color: white;
   font-size: 30px;
-  width: fit-content;
+  max-width: fit-content;
   margin-bottom: 20px;
 }
 .start span{
@@ -60,7 +62,10 @@
 }
 .domains{
   display: flex;
-  padding: 100px 140px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* padding: 100px 140px; */
 }
 .domain{
   margin-right: 50px;
@@ -128,8 +133,8 @@
   text-align: center;
   cursor: pointer;
   font-weight: 700;
-  padding: 20px;
-  width: 150px;
+  /* padding: 20px; */
+  max-width: 150px;
   border-radius: 25px;
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
@@ -151,11 +156,12 @@
 .net{
   color: #707070;
   font-weight: 500;
+  /* max-width: 50px; */
 }
 
 .overall{
   background-color: #e8f1e8;
-  padding: 100px;
+  padding: 100px 0px;
 }
 .our{
   color: #303030;
@@ -165,8 +171,10 @@
   font-weight: 400;
 }
 .features{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .feature{
   margin-bottom: 20px;
@@ -204,13 +212,14 @@
 }
 
 .hosting{
-  padding: 0px 70px;
   margin-bottom: 50px;
 }
 .standards{
   padding: 50px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .standard{
   max-width: 400px;
@@ -338,6 +347,8 @@
 }
 .houses{
   display: flex;
+  align-items: center;
+  flex-wrap: wrap;
   padding: 50px 0px 100px 0px;
 }
 .cloud-house{
@@ -394,6 +405,8 @@
 .blue-cloud{
   background-color:transparent;
   margin-top: -85px;
+  /* height: 50px; */
+  /* background-color: red; */
   position: relative;
 }
 .blue-cloud img{
@@ -404,7 +417,10 @@
   color: white;
   font-size: 34px;
   font-weight: 400;
+  z-index: 500;
   position: absolute;
   top: 80px;
-  right: 140px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 }

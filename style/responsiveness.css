@@ -1,0 +1,132 @@
+@media screen and (max-width: 1024px) {
+  .call div{
+    display: none;
+  }
+  .flex{
+    display: none;
+  }
+  .hidden-menu{
+    display: block;
+  }
+  .best{
+    font-size: 50px;
+  }
+  .ist img{
+    width: 300px;
+  }
+  .cloud{
+    margin-top: -50px;
+  }
+  .hami a{
+    margin-right: 0px;
+  }
+  .cloud-house{
+    width: 100%;
+  }
+  .cloud-house img{
+    width: 400px;
+  }
+  .normal-house{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .cloud{
+    margin-top: -35px;
+  }
+  .beast{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .ist{
+    max-width: fit-content;
+  }
+  .bests{
+    width: 100%;
+  }
+  .perfect{
+    font-size: 40px;
+  }
+  .net{
+    font-size: 10px;
+  }
+  .search a{
+    width: 100px;
+    padding: 20px 0px;
+    font-weight: 100;
+    font-size: 15px;
+    max-width: 100px;
+  }
+  .here input::placeholder{
+    width: 250px;
+    font-size: 15px;
+  }
+  .here input{
+    width: 200px;
+  }
+  .com{
+    font-size: 15px;
+  }
+  .x{
+    right: 5px;
+  }
+  .standard{
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  .standarder{
+    margin-bottom: 20px;
+    margin-right: 0px;
+  }
+  /* .cloud-house{
+
+  } */
+}
+@media screen and (max-width: 480px) {
+  .cloud{
+    margin-top: -25px;
+  }
+  .com{
+    padding: 20px 0px;
+    font-size: 10px;
+  }
+  .perfect{
+    font-size: 30px;
+  }
+  .here input::placeholder{
+    font-size: 10px;
+  }
+  .here input{
+    padding: 15px 0px;
+  }
+  .net{
+    max-width: 50px;
+  }
+  .search a{
+    padding: 20px 0px;
+    font-size: 10px;
+  }
+  .cloud-house img{
+    width: 300px;
+  }
+  .discount{
+    font-size: 40px;
+  }
+  .email-form{
+    width: 100px;
+  }
+  .products{
+    margin-right: 0;
+  }
+  .send{
+    right: 150px;
+  }
+  .subscribe{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 546px) {
+  .blue-cloud h3{
+    font-size: 16px;
+  }
+}
